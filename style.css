@@ -34,6 +34,9 @@ html{
     font-weight: 300;
     
 }
+.header_links:hover{
+    text-decoration: underline;
+}
 .main_section{
     display: flex;
     justify-content: space-between;
@@ -132,4 +135,30 @@ html{
    font-size: 26px;
    font-weight: 500;
    font-style: normal;
+}
+/* Sing up section*/
+.singup_section{
+    padding: 4% 18%;
+
+}
+.singup_section__card{
+    background: var(--button-color);
+    border-radius: 10px;
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--light-color);
+}
+
+.singup_section__card_button{
+    width: 120px;
+    color: var(--light-color);
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 2px solid var(--light-color);
+    background-color: transparent;
+}
+.singup_section__card_button:hover{
+    background-color: #3a598b;
+    cursor: pointer;
 }
