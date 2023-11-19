@@ -82,3 +82,33 @@ html{
     color: var(--light-color);
 }
 
+/* Second section */
+.secondary_section{
+    background-color: var(--light-color);
+    padding: 1.5em;
+    padding-bottom: 4em;
+}
+.secondary_section__title{
+    text-align: center;
+    padding-bottom: 1.5em;
+    color: var(--dark-color);
+    font-size: 36px;
+}
+.secondary_section__images{
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
+
+}
+.image_frame{
+    width: 150px;
+    height: 150px;
+    border: 3px solid var(--button-color);
+    border-radius: 10px;
+}
+.secondary_section__image_description{
+    width: 10vw;
+    text-align: center;
+    color: #48505b;
+    margin-top: 10px;
+}
