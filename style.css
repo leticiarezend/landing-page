@@ -112,3 +112,24 @@ html{
     color: #48505b;
     margin-top: 10px;
 }
+/*Third section*/
+.third_section{
+    padding: 5% 29%;
+    background: var(--secondary-text-color);
+}
+.third_section__bq{
+    display: flex;
+    flex-direction: column;
+}
+.third_section__quote{
+    font-size: 36px;
+    color: var(--dark-color);
+    font-weight: light;
+    font-style: italic;
+}
+.third_section__quote_cite{
+   align-self: flex-end;
+   font-size: 26px;
+   font-weight: 500;
+   font-style: normal;
+}
