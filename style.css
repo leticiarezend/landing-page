@@ -162,3 +162,10 @@ html{
     background-color: #3a598b;
     cursor: pointer;
 }
+.page_footer{
+    background: var(--dark-color);
+    color: var(--light-color);
+    padding: 3% 30%;
+    text-align: center;
+    font-size: 18px;
+}
